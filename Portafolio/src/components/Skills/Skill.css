@@ -1,0 +1,19 @@
+.skill{
+    width: 314px;
+    height: 124px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3a3a3abd;
+    border: none;
+    border-radius: 11px;
+    color: aliceblue;
+}
+
+.skill img{
+    width: 100px;
+}
+
+.skill p{
+    font-size: 20px;
+}

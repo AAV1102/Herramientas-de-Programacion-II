@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background-color: #000000;
+}
+span{
+  display: block;
+}
+
+.nombres{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 94px;
+    margin: 0;
+}
+.nombres h1:nth-child(1){
+  font-family: system-ui;
+  font-size: 62px;
+  color: white;
+  margin:0;
+}
+.nombres h1:nth-child(2){
+  font-family: system-ui;
+  font-size: 51px;
+  color: #15c2ce;
+  margin: 0;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 14ch;
+
+  animation: typing 2s steps(12),
+  blink .5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+
+.nombres p{
+    font-size: 15px;
+    color: #d4d6d8;
+    margin-top: 15px;
+    margin-bottom: 26px;
+}
+
+.imagen{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-right: 102px;
+}
+/* .imagen img:nth-child(1){
+  position: absolute;
+  width: 84px;
+  top: 186px;
+  border-radius: 14px;
+} */
+
+.imagen img:nth-child(1){
+  object-fit: cover;
+    width: 379px;
+    height: 393px;
+    border-radius: 50%;
+    outline: 3px solid #15c2ce;
+}
+
+.nombres button{
+  height: 60px;
+  border-radius: 7px;
+  width: 175px;
+  font-size: 17px;
+  background: #15c2ce;
+  cursor: pointer;
+}
+
+.nombres button:hover{
+  background: #00eeff;
+
+}
+
+.arrowIcon{
+    position: absolute;
+    bottom: 12px;
+    right: 743px;
+    color: white;
+    font-size: 2.9rem !important;
+    transform: rotate(45deg);
+    animation: bounce 1s infinite;
+}
+

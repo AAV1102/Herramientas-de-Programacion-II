@@ -1,0 +1,12 @@
+.NavBar{
+    position: fixed;
+    z-index: 1010;
+    background-color: black;
+}
+
+
+.redes {
+    width: 65px;
+    height: 44px;
+    fill: white;
+}

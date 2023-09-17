@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  background-color: black;
+}
+
+.projects{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projects .projectss{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
+
+.skills{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skills h1,.projects h1{
+  color: white;
+  font-size: 30px;
+}
+
+.skills div{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 21px;
+  justify-content: center;
+}
+
+
+.contacto{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
